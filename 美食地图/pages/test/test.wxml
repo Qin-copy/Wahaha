@@ -1,0 +1,4 @@
+<!--pages/test/test.wxml-->
+<map longitude="114.517245" latitude="38.049151" scale="18" markers="{{markers}}"></map>
+<button bind:tap="movemap">移动地图中心</button>
+<button bind:tap="getLocation">查看我的位置</button>
