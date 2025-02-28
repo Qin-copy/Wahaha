@@ -1,0 +1,55 @@
+<!--pages/wplay/wplay.wxml-->
+<view class="wplay-box">
+  <view class="wplay-shipin">
+    <text>电影列表</text>
+    <view class="item-shipin">
+      <view class="left">
+        <navigator url="/pages/gengduo/chumendeshijie">
+          <image src="/images/楚门的世界.jpg" mode="widthFix"/>
+        </navigator>
+      </view>
+      <view class="right">
+        <navigator url="/pages/gengduo/chumendeshijie">
+          <text>楚门的世界</text>
+        </navigator>
+      </view>
+    </view>
+    <view class="item-shipin">
+      <view class="left">
+        <navigator url="/pages/gengduo/hali">
+          <image src="/images/哈利波特与魔法石.jpg" mode="widthFix"/>
+        </navigator>
+      </view>
+      <view class="right">
+        <navigator url="/pages/gengduo/chumendeshijie">
+          <text>哈利波特与魔法石</text>
+        </navigator>
+      </view>
+    </view>
+    <view class="item-shipin">
+      <view class="left">
+        <navigator url="/pages/gengduo/liulang">
+          <image src="/images/流浪地球2.jpg" mode="widthFix"/>
+        </navigator>
+      </view>
+      <view class="right">
+        <navigator url="/pages/gengduo/liulang">
+          <text>流浪地球2</text>
+        </navigator>
+      </view>
+    </view>
+    <view class="item-shipin">
+      <view class="left">
+        <navigator url="/pages/gengduo/nidemingzi">
+          <image src="/images/天气之子.jpg" mode="widthFix"/>
+        </navigator>
+      </view>
+      <view class="right">
+        <navigator url="/pages/gengduo/nidemingzi">
+          <text>天气之子</text>
+        </navigator>
+      </view>
+    </view>
+  </view>
+  
+</view>

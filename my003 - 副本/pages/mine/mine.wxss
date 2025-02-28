@@ -1,0 +1,74 @@
+/* pages/mine/mine.wxss */
+.classify-title{
+  width: 100%;
+  height: 55rpx;
+  display: flex;
+  position: relative;/*父元素位置要设置为相对*/
+  background-color:#FF69B4 ;
+}
+.classify-title .class-title-left{
+  position: absolute;/*要约束所在位置的子元素的位置要设置成绝对*/
+  left: 0;/* 调节靠左 */
+  width: 65%;
+  height: 70rpx;
+  font-weight: bold;
+  font-family: "黑体";
+}
+.classify-title .gengduo{
+  text-align: right;
+  position: absolute;/*要约束所在位置的子元素的位置要设置成绝对*/
+  right:0;/* 调节靠右 */
+  width: 33%;
+  height: 68rpx;
+  font-size: 13px;
+  color: blue;
+  background-color:transparent;
+  border: none;
+}
+.scroll_box{
+  width: 100%;
+  height: 355rpx;
+  overflow: hidden;
+  padding: 20rpx;
+  white-space: nowrap;
+  background-color: #FF69B4;
+  }
+.scroll_box scroll-view{
+  height: 100%;
+  width: auto;
+  overflow:hidden;
+}
+.item_list{
+  width: 200rpx;
+  height: 100%; 
+  margin-right: 23rpx;
+  display: inline-block;
+  margin-left: 10px;
+  background-color: white;
+}
+.item_list image{
+    width: 100%;
+}
+.item_list_name{
+  height: 20px;
+  font-size: 15px;
+  overflow: hidden;
+  background-color: white;
+}
+.item_list .image-xing{
+  width: 60%;
+}
+
+   
+/*.zhanshi-dianshju-list{
+  font-size: 11pt;
+  margin-bottom: 20rpx;
+}
+.zhanshi-dianshju-list>.list-inner{
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 20rpx;
+}
+.zhanshi-dianshju-list>.list-inner>.list-item{
+  flex: 1;
+}

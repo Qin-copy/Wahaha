@@ -1,0 +1,16 @@
+<!--pages/gengduo/ymlw.wxml-->
+<view class="ymlw-box">
+  <view class="ymlw-vieo">
+  <view class="yugao">预告抢先看：</view> 
+    <video id="myVideo" src='{{src}}' ></video>
+  </view>
+  <view class="ymlw-jieshao">
+    <view class="juqing-biaoti">
+      剧情介绍：
+    </view>
+    <view class="juqing-jieshao">
+      月黑风高之夜，一群电影人被秘密召集到一起，欲将轰动一时的血案翻拍成电影，借此扬名立万。殊不知他们正身处案发现场，并步步陷入一个巨大迷局之中，而凶手就在他们中间……伴随着利欲熏天的创作风暴，案件背后的故事似乎也更加扑朔迷离，戏中戏、案中案、局中局、人外人，环环相扣，一场野心与良心的较量愈演愈烈。究竟是命悬一线，还是另有惊天逆转？爱与温暖的血色花又能否从快将干涸的血河中终极绽放？一切都有待揭开。
+    </view>
+  </view>
+  
+</view>

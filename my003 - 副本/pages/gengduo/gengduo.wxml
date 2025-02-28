@@ -1,0 +1,39 @@
+<!--pages/gengduo/gengduo.wxml-->
+<view class="tou">
+  <button class="avatar-wrapper" open-type="chooseAvatar" bindchooseavatar="onChooseAvatar">
+    <image class="avatar" src="{{ avatarUrl }}"></image>
+  </button>
+  <input type="nickname" class="nickname" placeholder="请输入昵称 默认：5班秦晓曼" />
+</view>
+<view class="all">
+  <view class="item-left" >
+    昵称：
+  </view>
+  <view class="item-right" >
+    <input type="nickname"  placeholder="默认：5班秦晓曼" />
+  </view>
+</view>
+<view class="all">
+  <view class="item-left" >
+    简介：
+  </view>
+  <view class="item-right" >
+    <input type="nickname"placeholder="自定义简介" />
+  </view>
+</view>
+<view class="all">
+  <view class="item-left" >
+    生日：
+  </view>
+  <view class="item-right" >
+    <input type="nickname"placeholder="默认：2002.10.30" />
+  </view>
+</view>
+<view class="all">
+  <view class="item-left" >
+    余额：
+  </view>
+  <view class="item-right" >
+    <text>500.30</text>
+  </view>
+</view>

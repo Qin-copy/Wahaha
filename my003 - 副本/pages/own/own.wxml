@@ -1,0 +1,18 @@
+
+<button class="avatar-wrapper" open-type="chooseAvatar" bindchooseavatar="onChooseAvatar">
+  <image class="avatar" src="{{ avatarUrl }}"></image>
+</button>
+<input type="nickname" class="nickname" placeholder="请输入昵称 默认：5班秦晓曼" />
+
+<button bindtap="gotoPage" >个人详情</button>
+<view class="all">
+  <view class="kk"></view>
+  <view class="a">
+    <navigator url="/pages/gengduo/gengduo">用户昵称</navigator>
+  </view>
+  
+  <view class="a">个人勋章</view>
+  <view class="a">个人收藏</view>
+  <view class="a">历史浏览</view>
+  <view class="a">设置</view>
+</view>

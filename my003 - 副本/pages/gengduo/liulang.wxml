@@ -1,0 +1,16 @@
+<!--pages/gengduo/liulang.wxml-->
+<view class="ymlw-box">
+  <view class="ymlw-vieo">
+  <view class="yugao">预告抢先看：</view> 
+    <video id="myVideo" src='{{src}}' ></video>
+  </view>
+  <view class="ymlw-jieshao">
+    <view class="juqing-biaoti">
+      剧情介绍：
+    </view>
+    <view class="juqing-jieshao">
+      太阳即将毁灭，人类在地球表面建造出巨大的推进器，寻找新的家园。然而宇宙之路危机四伏，为了拯救地球，流浪地球时代的年轻人再次挺身而出，展开争分夺秒的生死之战。
+    </view>
+  </view>
+  
+</view>

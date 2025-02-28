@@ -1,0 +1,153 @@
+<!--pages/mine/mine.wxml-->
+<!--推荐滚动栏-->
+<swiper class="content-info-slide" indicator-color="rgba(255,255,255,.5)" indicator-active-color="#fff" indicator-dots circular autoplay>
+  <swiper-item>
+    <navigator url="/pages/gengduo/ymlw">
+      <image mode="widthFix" src="/images/扬名立万横版.jpg" />
+    </navigator>
+  </swiper-item>
+  <swiper-item>
+    <navigator url="/pages/gengduo/yangjian">
+      <image mode="widthFix" src="/images/新封神榜杨戬横版.jpg" />
+    </navigator>
+  </swiper-item>
+  <swiper-item>
+    <navigator url="/pages/gengduo/nidemingzi">
+      <image mode="widthFix" src="/images/天气之子横版.jpg" />
+    </navigator>
+  </swiper-item>
+</swiper>
+
+<view class="classify-title">
+  <view class="class-title-left">当下热映电影</view>
+  <button bindtap="gotoPage" class="gengduo">《《 更多 </button>
+  <!--<view class="gengduo" bind:tap="jump">《《 更多  </view>-->
+</view>
+<!--热映电影-横向可滑动展示栏-->
+<view class="scroll_box"> 
+  <scroll-view scroll-x>
+      <view class="item_list" >
+        <view class="item_list_up">
+          <navigator url="/pages/gengduo/ymlw">
+            <image mode="widthFix" class="image-tu" src="/images/扬名立万.jpg"/>
+          </navigator>
+        </view>
+        <view class="item_list_name">扬名立万rgregeg</view>
+        <view class="item_list_down">
+          <image mode="widthFix" class="image-xing" src="/images/星星.jpg"/>
+        </view>
+      </view>
+      <view class="item_list" >
+        <view class="item_list_up">
+          <navigator url="/pages/gengduo/yangjian">
+            <image mode="widthFix" class="image-tu" src="/images/新封神榜杨戬.jpg"/>
+          </navigator>
+        </view>
+        <view class="item_list_name">新封神榜杨戬</view>
+        <view class="item_list_down">
+          <image mode="widthFix" class="image-xing" src="/images/星星.jpg"/>
+        </view>
+      </view>
+      <view class="item_list" >
+        <view class="item_list_up">
+          <navigator url="/pages/gengduo/nidemingzi">
+            <image mode="widthFix" class="image-tu" src="/images/天气之子.jpg"/>
+          </navigator>
+        </view>
+        <view class="item_list_name">天气之子</view>
+        <view class="item_list_down">
+          <image mode="widthFix" class="image-xing" src="/images/星星.jpg"/>
+        </view>
+      </view>
+      <view class="item_list" >
+        <view class="item_list_up">
+          <navigator url="/pages/gengduo/liulang">
+            <image mode="widthFix" class="image-tu" src="/images/流浪地球2.jpg"/>
+          </navigator>
+        </view>
+        <view class="item_list_name">流浪地球</view>
+        <view class="item_list_down">
+          <image mode="widthFix" class="image-xing" src="/images/星星.jpg"/>
+        </view>
+      </view>
+      <view class="item_list" >
+        <view class="item_list_up">
+          <navigator url="/pages/gengduo/hali">
+            <image mode="widthFix" class="image-tu" src="/images/哈利波特与魔法石.jpg"/>
+          </navigator>
+        </view>
+        <view class="item_list_name">哈利波特与魔法石</view>
+        <view class="item_list_down">
+          <image mode="widthFix" class="image-xing" src="/images/星星.jpg"/>
+        </view>
+      </view>
+  </scroll-view>
+</view>
+
+
+<view class="classify-title">
+  <view class="class-title-left">经典热映电影</view>
+  <button bindtap="gotoPage" class="gengduo">《《 更多 </button>
+</view>
+<!--热映电影-横向可滑动展示栏-->
+<view class="scroll_box"> 
+  <scroll-view scroll-x>
+    <view class="item_list" >
+        <view class="item_list_up">
+          <navigator url="/pages/gengduo/hali">
+            <image mode="widthFix" class="image-tu" src="/images/哈利波特与魔法石.jpg"/>
+          </navigator>
+        </view>
+        <view class="item_list_name">哈利波特与魔法石</view>
+        <view class="item_list_down">
+          <image mode="widthFix" class="image-xing" src="/images/星星.jpg"/>
+        </view>
+    </view>
+      <view class="item_list" >
+        <view class="item_list_up">
+          <navigator url="/pages/gengduo/chumendeshijie">
+            <image mode="widthFix" class="image-tu" src="/images/楚门的世界.jpg"/>
+          </navigator>
+        </view>
+        <view class="item_list_name">楚门的世界</view>
+        <view class="item_list_down">
+          <image mode="widthFix" class="image-xing" src="/images/星星.jpg"/>
+        </view>
+      </view>
+      <view class="item_list" >
+        <view class="item_list_up">
+          <navigator url="/pages/gengduo/yangjian">
+            <image mode="widthFix" class="image-tu" src="/images/新封神榜杨戬.jpg"/>
+          </navigator>
+        </view>
+        <view class="item_list_name">新封神榜杨戬</view>
+        <view class="item_list_down">
+          <image mode="widthFix" class="image-xing" src="/images/星星.jpg"/>
+        </view>
+      </view>
+      <view class="item_list" >
+        <view class="item_list_up">
+          <navigator url="/pages/gengduo/nidemingzi">
+            <image mode="widthFix" class="image-tu" src="/images/天气之子.jpg"/>
+          </navigator>
+        </view>
+        <view class="item_list_name">天气之子</view>
+        <view class="item_list_down">
+          <image mode="widthFix" class="image-xing" src="/images/星星.jpg"/>
+        </view>
+      </view>
+      <view class="item_list" >
+        <view class="item_list_up">
+          <navigator url="/pages/gengduo/liulang">
+            <image mode="widthFix" class="image-tu" src="/images/流浪地球2.jpg"/>
+          </navigator>
+        </view>
+        <view class="item_list_name">流浪地球</view>
+        <view class="item_list_down">
+          <image mode="widthFix" class="image-xing" src="/images/星星.jpg"/>
+        </view>
+      </view>
+      
+  </scroll-view>
+</view>
+

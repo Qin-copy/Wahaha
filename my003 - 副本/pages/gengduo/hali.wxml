@@ -1,0 +1,16 @@
+<!--pages/gengduo/hali.wxml-->
+<view class="ymlw-box">
+  <view class="ymlw-vieo">
+  <view class="yugao">预告抢先看：</view> 
+    <video id="myVideo" src='{{src}}' ></video>
+  </view>
+  <view class="ymlw-jieshao">
+    <view class="juqing-biaoti">
+      剧情介绍：
+    </view>
+    <view class="juqing-jieshao">
+      在《哈利·波特与魔法石》中，一岁的哈利·波特失去了父母后，便被送到了姨妈家，过着极其痛苦的日子。一直到十一岁生日那天，哈利一生的命运才发生了变化，他收到了一封神秘的信，被邀请去一个童话般的地方——霍格沃茨魔法学校。哈利发现这里到处充满着魔力，他既找到了朋友，又学会了魔法和骑着飞天扫帚打魁地奇，还得到了一件隐形衣，他在这里生活得很愉快。但一块魔法石出现了，它将关系到世界的现在和未来。哈利在好朋友罗恩和赫敏的帮助下，突破了重重困难，保护了魔法石，终于拯救了世界。
+    </view>
+  </view>
+  
+</view>

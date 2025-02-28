@@ -1,0 +1,33 @@
+/* pages/gengduo/ymlw.wxss */
+.ymlw-box{
+  background-color:red;
+  width: 100%;
+  height: 700px;
+}
+.ymlw-vieo{
+  background-color: blue;
+  height: 35%;
+}
+.ymlw-jieshao{
+  background-color: blueviolet;
+  height: 70%;
+
+}
+video{
+  width: 100%;
+}
+
+.juqing-biaoti{
+  background-color: burlywood;
+  height: 9%;
+  font-size: 25px;
+}
+.juqing-jieshao{
+  background-color: cadetblue;
+  height: 100%;
+  width: 95%;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
+

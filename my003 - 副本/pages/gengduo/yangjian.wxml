@@ -1,0 +1,16 @@
+<!--pages/gengduo/yangjian.wxml-->
+<view class="ymlw-box">
+  <view class="ymlw-vieo">
+  <view class="yugao">预告抢先看：</view> 
+    <video id="myVideo" src='{{src}}' ></video>
+  </view>
+  <view class="ymlw-jieshao">
+    <view class="juqing-biaoti">
+      剧情介绍：
+    </view>
+    <view class="juqing-jieshao">
+      商周之战一千五百年后，天界衰落，蒙冤落魄的杨戬以赏银捕手为业谋生。一日，杨戬接受了一位神秘访客的赏银去追捕一位少年，意外发现少年竟是自己的亲外甥沉香。沉香立志要寻回宝莲灯，劈山救母，却将酿成大祸。杨戬踏上追寻沉香并揭开尘封往事的旅程……
+    </view>
+  </view>
+  
+</view>

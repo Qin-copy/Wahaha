@@ -1,0 +1,41 @@
+/* pages/own/own.wxss */
+.avatar-wrapper {
+  width: 160rpx;
+  height: 160rpx;
+  padding: 0;
+  background: none;
+}
+button{
+  background-color: #FF69B4;
+  font-size: 20px;
+  font-weight: 200;
+}
+.avatar {
+  width: 160rpx;
+  height: 160rpx;
+  border-radius: 20rpx;
+}
+.nickname {
+  width: 80%;
+  height: 100rpx;
+  margin: 20px auto;
+  border: 1px solid #000000;
+  text-align: center;
+}
+.all{
+
+  height: 888rpx;
+}
+.kk{height: 80rpx;}
+.a{
+  background-color: #d8b3c6;
+  border: 3rpx solid white;
+	border-radius: 10rpx;
+  padding: 10rpx;
+  height: 100rpx;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}

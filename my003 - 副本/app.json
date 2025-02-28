@@ -1,0 +1,72 @@
+{
+  "pages": [
+    "pages/mine/mine",
+    "pages/index/index",
+    "pages/waround/waround",
+    "pages/own/own",
+    "pages/wplay/wplay",
+    "pages/logs/logs",
+    "pages/gengduo/ymlw",
+    "pages/gengduo/gengduo",
+    "pages/gengduo/yangjian",
+    "pages/gengduo/nidemingzi",
+    "pages/gengduo/chumendeshijie",
+    "pages/gengduo/hali",
+    "pages/gengduo/liulang"
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "Weixin",
+    "navigationBarBackgroundColor": "#ffffff"
+  },
+  "style": "v2",
+  "componentFramework": "glass-easel",
+  "sitemapLocation": "sitemap.json",
+  "lazyCodeLoading": "requiredComponents",
+  "requiredBackgroundModes": [
+    "audio",
+    "backgroundAudioManager"
+  ],
+  "tabBar": {
+    "color": "#000000",
+    "selectedColor": "#00BFFF",
+    "backgroundColor": "#FFFFFF",
+    "borderStyle": "black",
+    "position": "bottom",
+    "custom": false,
+    "list": [
+      {
+        "pagePath": "pages/mine/mine",
+        "text": "首页",
+        "iconPath": "/images/01.png",
+        "selectedIconPath": "/images/01.png"
+      },
+      {
+        "pagePath": "pages/waround/waround",
+        "text": "周边影院",
+        "iconPath": "/images/01.png",
+        "selectedIconPath": "/images/01.png"
+      },
+      {
+        "pagePath": "pages/wplay/wplay",
+        "text": "播放",
+        "iconPath": "/images/01.png",
+        "selectedIconPath": "/images/01.png"
+      },
+      {
+        "pagePath": "pages/own/own",
+        "text": "个人中心",
+        "iconPath": "/images/01.png",
+        "selectedIconPath": "/images/01.png"
+      }
+    ]
+  },
+  "requiredPrivateInfos": [
+    "getLocation"
+  ],
+  "permission": {
+    "scope.userLocation": {
+      "desc": "您的位置将用于小程序位置接口的效果显示"
+    }
+  }
+}
